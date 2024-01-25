@@ -1,5 +1,5 @@
 {% set name = "dask-ctl" %}
-{% set version = "2022.5.0" %}
+{% set version = "2024.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ef6c023b9cb6ac314a0b3e79a4ae9c81798547cabb3e9eeed5a44f72c0bb3834
+  sha256: c5c98011a7387af845fb9d43c2e4224e67cf3be457895e6ae37ef41597e22407
 
 build:
   noarch: python
